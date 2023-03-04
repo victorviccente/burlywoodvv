@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins&display=swap');
+
 
 
 :root {
@@ -9,7 +10,7 @@
     --color-brand: burlywood;
     --color-brand2: #ffffff;
     --sidbar-width: 240px;
-    --font-base: "Poppins";
+    --font-base: "Montserrat";
 }
 
 body {
@@ -41,8 +42,12 @@ img {
 }
 
 .bg-base {
+    
+    border-style: solid;
     cursor: pointer;
-    background-color: white
+    border-color: burlywood;
+    border-radius: 3px;
+    border-width: 2px;
 }
 
 .full-height {
@@ -53,7 +58,7 @@ img {
     justify-content: center;
     padding-top: 80px;
     padding-bottom: 80px;
-    border-bottom: 2px solid var(--color-brand)
+    border-bottom: 1px solid var(--color-brand)
 }
 
 .shadow-effect {
